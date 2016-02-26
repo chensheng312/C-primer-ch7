@@ -17,18 +17,6 @@ Sale_data add(const Sale_data&, const Sale_data&);
 std::ostream &print(std::ostream&, const Sale_data&);
 std::istream &read(std::istream&,Sale_data&);
 
-Sale_data& Sale_data::combine(const Sale_data& rhs)
-{
-    units_sold += rhs.units_sold;
-    revenue +=rhs.revenue;
-    return *this;
-}
-double Sale_data::avg_price()const
-{
-    if(units_sold)
-        return revenue/units_sold;
-    else
-        return 0;
-}
+
 
 #endif // CP5_ex7_06_h
