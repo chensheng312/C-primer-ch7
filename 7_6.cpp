@@ -4,6 +4,20 @@
 
 using namespace std;
 
+Sale_data& Sale_data::combine(const Sale_data& rhs)
+{
+    units_sold += rhs.units_sold;
+    revenue +=rhs.revenue;
+    return *this;
+}
+double Sale_data::avg_price()const
+{
+    if(units_sold)
+        return revenue/units_sold;
+    else
+        return 0;
+}
+
 istream &read(istream &is, Sale_data &item)
 {
     double price = 0.0;
