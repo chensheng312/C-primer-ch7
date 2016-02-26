@@ -18,6 +18,6 @@ Sale_data& Sale_data::combine(const Sale_data& rhs)
     return *this;
 }
 //note _ this
-//ÎÒÃÇÎÞÐëÊ¹ÓÃÒþÊ½µÄthisÖ¸Õë·ÃÎÊº¯Êýµ÷ÓÃÕßµÄÄ³¸ö¾ßÌå³ÉÔ±£¬¶øÊÇÐèÒª°Ñµ÷ÓÃº¯ÊýµÄ¶ÔÏóµ±³ÉÒ»¸öÕûÌåÀ´·ÃÎÊ¡£
-//return Óï¾ä½âÒýÓÃthisÖ¸ÕëÒÔ»ñµÃÖ´ÐÐ¸Ãº¯ÊýµÄ¶ÔÏó£¬¼´£¬ÉÏÃæµÄÕâ¸öµ÷ÓÃ·µ»ØtotalµÄÒýÓÃ¡£
+//æˆ‘ä»¬æ— é¡»ä½¿ç”¨éšå¼çš„thisæŒ‡é’ˆè®¿é—®å‡½æ•°è°ƒç”¨è€…çš„æŸä¸ªå…·ä½“æˆå‘˜ï¼Œè€Œæ˜¯éœ€è¦æŠŠè°ƒç”¨å‡½æ•°çš„å¯¹è±¡å½“æˆä¸€ä¸ªæ•´ä½“æ¥è®¿é—®ã€‚
+//return è¯­å¥è§£å¼•ç”¨thisæŒ‡é’ˆä»¥èŽ·å¾—æ‰§è¡Œè¯¥å‡½æ•°çš„å¯¹è±¡ï¼Œå³ï¼Œä¸Šé¢çš„è¿™ä¸ªè°ƒç”¨è¿”å›žtotalçš„å¼•ç”¨ã€‚
 #endif // CP5_ex7_02_h
