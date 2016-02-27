@@ -12,9 +12,7 @@ struct Person
 
 istream &read(istream & is, Person & per1)
 {
-    is>>Person.Name>>Person.Address;
-    if(!is)
-        per1=Person();
+    is>>per1.Name>>per1.Address;
     return is;
 }
 ostream &print(ostream &os, const Person &per2)
