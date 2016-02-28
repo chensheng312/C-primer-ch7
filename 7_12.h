@@ -3,6 +3,7 @@
 #include <string>
 #include<iostream>
 
+struct Sale_data；
 std::istream &read(std::istream&,Sale_data&);
 
 struct Sale_data
