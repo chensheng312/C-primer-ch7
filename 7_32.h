@@ -1,5 +1,5 @@
-#ifndef CP5_ex7_27_h
-#define CP5_ex7_27_h
+#ifndef CP5_ex7_32_h
+#define CP5_ex7_32_h
 
 #include <string>
 #include<iostream>
@@ -91,4 +91,4 @@ inline void Window_mgr::clear(ScreenIndex i)
     s.contents=std::string(s.height *s.width,' ');
 }
 
-#endif // CP5_ex7_27_h
+#endif // CP5_ex7_32_h
