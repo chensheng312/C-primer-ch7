@@ -14,7 +14,7 @@ public:
 class C
 {
 public:
-    C():b(0); //b没有默认初始化
+    C():b(0) { } //b脙禄脫脨脛卢脠脧鲁玫脢录禄炉
 
 private:
     NoDefault b;
