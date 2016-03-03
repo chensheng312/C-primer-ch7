@@ -1,0 +1,2 @@
+把Screen类的pos的typede放到类的最后一行会出现  error: 'pos' has not been declared 的错误信息。
+原因：函数dummy_fcn的参数列表的类型在该点之前没有定义过，此处相当于函数dummy_fcn声明使用了类中尚未出现的名字。
