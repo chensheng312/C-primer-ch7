@@ -8,7 +8,7 @@
 class NoDefault
 {
 public:
-    NoDefault(int a);
+    NoDefault(int a) {};
 
 };
 class C
